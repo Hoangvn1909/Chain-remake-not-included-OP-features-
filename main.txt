@@ -1,0 +1,12 @@
+local placeId = game.PlaceId
+
+local GAME_CHAIN = 10204250851
+local GAME_BITE_BY_NIGHT = 70845479499574
+
+if placeId == GAME_CHAIN then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoangvn1909/Chain-remake-not-included-OP-features-/refs/heads/main/newui.txt"))()
+elseif placeId == GAME_BITE_BY_NIGHT then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoangvn1909/Chain-remake-not-included-OP-features-/refs/heads/main/betagame.txt"))()
+else
+    warn("Game not supported. Place ID: " .. placeId)
+end
